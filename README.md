@@ -31,7 +31,7 @@ Current Features:
 * perft
 * logging
 
-* Currently working on:
+Currently working on:
 * king tropism in the eval function
 * better draw detection
 * getting pondering to work properly
