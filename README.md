@@ -29,4 +29,9 @@ Current Features:
 * perft
 * logging
 
+* Currently working on:
+* king tropism in the eval function
+* better draw detection
+* getting pondering to work properly
+
 The log file for JFresh will be written to the current working directory of the executable.
