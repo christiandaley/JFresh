@@ -10,9 +10,23 @@ navigate to the src directory in terminal and run "make". An already compiled ve
 users.
 
 Current Features:
-*alpha-beta pruning
-*iterative deepening
-*quiescence search
-*mate-distance pruning
-*null move pruning
-* 
+* magic bitboards
+* alpha-beta pruning
+* iterative deepening
+* principle variation search
+* quiescence search
+* transposition table
+* mate-distance pruning
+* null move pruning
+* internal iterative deepening
+* futility pruning
+* late move reductions
+* killer moves
+* history heuristic
+* static exchange evaluation
+* delta pruning
+* pawn structure hash table
+* perft
+* logging
+
+The log file for JFresh will be written to the current working directory of the executable.
