@@ -12,6 +12,7 @@
 #include "Move.h"
 #include "MoveGen.h"
 #include <time.h>
+#include <sys/time.h>
 
 typedef struct {
     
