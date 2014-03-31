@@ -26,8 +26,6 @@ static pthread_t monitorThread;
 
 void startSearch() {
         
-    pthread_cancel(searchThread);
-    pthread_cancel(monitorThread);
     gettimeofday(&shared_results()->startTime, NULL);
     
     int fail;

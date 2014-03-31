@@ -53,6 +53,8 @@ void *search(void *args) {
     if (ttable->length == 0)
         init_tt();
     
+    clear_tt();
+    
     for (results->currentDepth = 1; s_options->stop == 0;results->currentDepth++) {
         clear_killers();
         clear_history();
