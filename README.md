@@ -9,7 +9,7 @@ line or through a uci compatible chess interface. Currently, JFresh can only run
 navigate to the src directory in terminal and run "make". An already compiled version is available for 64 bit mac
 users.
 
-JFresh does not play very strong (yet) and I have estimated its elo at 1800-2000.
+JFresh does not play very strong and I have estimated its elo at 1500
 
 Current Features:
 * magic bitboards
@@ -30,10 +30,5 @@ Current Features:
 * pawn structure hash table
 * perft
 * logging
-
-Currently working on:
-* king tropism in the eval function
-* better draw detection
-* getting pondering to work properly
 
 The log file for JFresh will be written to the current working directory of the executable.
